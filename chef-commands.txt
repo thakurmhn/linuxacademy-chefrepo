@@ -1,0 +1,10 @@
+knife node run_list add node1.mhn.com 'recipe[apache]'
+knife node show node1.mhn.com
+knife node show -l  node1.mhn.com
+
+
+## NOde commands
+
+# Client dry run
+
+chef-client --why-run
